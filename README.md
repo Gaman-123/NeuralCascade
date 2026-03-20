@@ -196,8 +196,12 @@ streamlit run demo.py
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 <p align="center">
-  <!-- TODO: Save a screenshot of your Streamlit app running and place it in the docs/ folder -->
+  <!-- TODO: Save screenshots of your Streamlit app running and place them in the docs/ folder -->
   <img src="docs/demo_screenshot.png" alt="NeuralCascade Interactive Streamlit Demo" width="800">
+  <br><br>
+  <img src="docs/demo_screenshot_2.png" alt="NeuralCascade Detail View 1" width="800">
+  <br><br>
+  <img src="docs/demo_screenshot_3.png" alt="NeuralCascade Intervention View" width="800">
   <br>
   <em>Figure 1: Interactive Pyvis propagation simulation rendering risk cascades based on Continuous Diffusion models.</em>
 </p>
