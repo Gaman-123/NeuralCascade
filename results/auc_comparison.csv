@@ -1,0 +1,5 @@
+model,auc_roc,top_k_precision,notes
+GAT+TemporalMP (Ours),0.891,0.743,Full model with 8-head GAT + GRU temporal message passing T=6 + ESM-2 embeddings
+LogisticRegression,0.701,0.512,Logistic regression on raw node features only; no graph structure
+SIR Simulation,0.654,0.448,Classical SIR epidemic model on PPI graph; no learned parameters
+VanillaGCN,0.779,0.631,GCN with same node features but no temporal message passing or attention

@@ -1,0 +1,7 @@
+protein_name,uniprot_id,disease,seed_label
+SNCA,P37840,Parkinson's Disease,1
+APP,P05067,Alzheimer's Disease,1
+MAPT,P10636,Frontotemporal Dementia / Alzheimer's Disease,1
+PrP,P04156,Creutzfeldt-Jakob Disease / Prion Disease,1
+TDP-43,Q13148,ALS / Frontotemporal Dementia,1
+FUS,P35637,ALS / Frontotemporal Dementia,1

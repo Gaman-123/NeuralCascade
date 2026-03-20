@@ -1,0 +1,5 @@
+model,auc_roc,top_k_precision,notes
+GAT+TemporalMP (Ours),0.5189,0.1,Full model
+LogisticRegression,0.2841,0.05,No graph structure
+SIR Simulation,0.6098,N/A,No learnable params
+VanillaGCN,0.5,0.05,No temporal MP

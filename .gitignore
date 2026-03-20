@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Data (large files — download via pipeline)
+data/string_ppi_cache.csv
+data/ppi_graph.pt
+data/node_features.pt
+
+# Model checkpoints
+checkpoints/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+*.ipynb
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ESM-2 downloaded weights (large)
+esm_checkpoints/
+*.ckpt
